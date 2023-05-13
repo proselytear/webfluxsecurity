@@ -3,6 +3,7 @@
 
 
 ## Цель видео - дать общее понимание этапов создания приложения с использованием следующих технологий:
+ - Spring Boot 3
  - Spring Security (JWT)
  - Spring WebFlux
  - Spring Data R2DBC
