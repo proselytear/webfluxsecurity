@@ -9,6 +9,8 @@ spring:
   flyway:
     url: jdbc:postgresql://localhost:5432/proselyte_webflux_security
     locations: classpath:db/migration
+    user: ${spring.r2dbc.username}
+    password: ${spring.r2dbc.password}
 
 jwt:
   password:
